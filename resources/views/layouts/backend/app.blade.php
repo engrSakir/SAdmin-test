@@ -66,7 +66,7 @@
         <!-- ============================================================== -->
         <footer class="footer">
             © {{ date('Y') }}
-            <a href="https://www.egeneration.co/" target="_blank">eGeneration</a>
+            <a href="https://www.google.com/" target="_blank">Md. Sakir Ahmed</a>
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
