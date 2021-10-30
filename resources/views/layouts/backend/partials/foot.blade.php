@@ -14,6 +14,22 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!--Custom JavaScript -->
 <script src="{{ asset('assets/dist/js/custom.min.js') }}"></script>
+ {{-- All table are datatable JS Start --}}
+ <link href="//cdn.datatables.net/1.11.2/css/jquery.dataTables.min.css" rel="stylesheet">
+ <script src="//cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+ <script>
+     $(document).ready(function() {
+         $('.datatable').DataTable();
+     });
+ </script>
+ {{-- All dropdown ase Select 2 --}}
+ <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+ <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+ <script>
+     $(document).ready(function() {
+         $('.select2').select2();
+     });
+</script>
 <script src="{{ asset('assets/helper/helper.js') }}"></script>
 {{-- @jquery --}}
 @toastr_js
